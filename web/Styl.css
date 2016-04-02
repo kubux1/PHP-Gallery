@@ -1,0 +1,249 @@
+body
+{
+    background-color:lavender;
+
+
+}
+
+img.mem{
+    position:absolute;
+   width:20%;
+ height: 20%;
+ 
+}
+.data{
+    float:right;
+   
+}
+
+#wynik{
+display: inline;
+color:red;
+}
+#wynik1{
+display: inline;
+color:black;
+}
+.tlo{
+    margin:10px;
+}
+.przycisk{
+     margin:20px;
+}
+
+
+@media (max-width: 768px) {
+    div#struktura,div#naglowek, div#stopka, div#nawigacja, div#main {
+        width: auto;
+        margin: 0px;
+       
+    }
+
+   div#nawigacja{
+        float: none;
+    }
+ 
+
+ div img.GOT{
+     width:100%;
+     height:100%;
+ }
+img.mem{
+     width:100%;
+     height:100%;
+ }
+
+}
+ 
+
+h1
+{
+text-align:center;
+   font-family:Times New Roman;
+    font-weight:bold;
+    font-style:normal;
+    font-size:40px;
+ margin:0px;
+}
+
+h2{
+text-align:center;
+   font-family:Times New Roman;
+    font-weight:bold;
+    font-style:normal;
+    font-size:18px;
+}
+h3{
+    text-align:center;
+   font-family:Times New Roman;
+    font-weight:bold;
+    font-style:normal;
+    font-size:38px
+
+}
+.formularz{
+    text-align:left;
+    font-size:30px
+}
+h4{
+    text-align:center;
+   font-family:Times New Roman;
+    font-weight:bold;
+    font-style:normal;
+    font-size:30px
+}
+h5{
+ font-family:Times New Roman;
+font-size:25px;
+
+}
+img.GRRM{
+
+float:left;
+ width:20%;
+ height: 20%;
+ margin:15px;
+
+}
+p{
+
+    text-align:justify;
+   font-family:Times New Roman;
+    font-weight:bold;
+    font-style:normal;
+    font-size:20px;
+    margin:15px;
+    color:darkblue;
+
+}
+.odwiedziny{
+    color:black;
+     font-style:oblique;
+    font-size:15px;
+    text-align:left;
+}
+#czas{
+    color:black;
+     font-style:oblique;
+    font-size:15px;
+    text-align:right;
+}
+#cialo{
+     position: relative;
+    float:left;
+    width:750px;
+    height:auto;
+    overflow:auto;
+}
+img.Stark{
+     width:100px;
+    height:10%;
+}
+img.GOT{
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:1000px;
+    height:150px;
+}
+
+/*PODSTAWOWY SZABLON STRONY*/
+#struktura
+{
+    width: 1100px;
+    height:100%;
+    margin:10px auto;
+ 
+
+   
+}
+
+#naglowek 
+{
+    width:100%;
+    height:140px;
+    position:relative;
+    border-bottom:1px solid black;
+    background-color:dodgerblue;
+}
+#stopka
+{
+    position: relative;
+    width:100%;
+    height:35px;
+    border:1px solid black;
+   text-align:center;
+   background-color:gold;
+}
+#p1{
+      
+   margin-top:10px;
+}
+#nawigacja
+{
+    position:relative;
+    float:left;
+    width:200px;
+    height:auto;
+    background-color:orangered;
+    border-right:1px solid black;
+    border-bottom:1px solid black;
+    border-top:1px solid black;
+    border-left:1px solid black;
+
+}
+/*TABELKA*/
+table 
+{
+	caption-side:top;
+	border: 1px solid black;
+	border-collapse:collapse;
+	text-align:center;
+    margin:10px;
+           
+}
+
+td
+{    padding:20px;
+	border: 1px solid black;
+}
+.dewiza{
+font-style: italic;
+color:dodgerblue;
+}
+.gora{
+ font-size: 20px;
+font-weight:bold;
+}
+caption{
+    font-size:35px;
+    font-weight:bold;
+}
+
+.okno{
+    font-size:20px;
+     padding: 5px;
+    color:black ;
+    border:solid firebrick;
+   background-color: navajowhite;
+    
+}
+.tab{
+     padding: 15px;
+    color:black ;
+    border:solid firebrick;
+   background-color: steelblue;
+ 
+}
+.ui-datepicker{
+  background:orange;
+}
+body { font-family: Verdana, sans-serif; }
+#MenuRozmiaru { float: left; border: 1px solid #CCC; background-color: #EFEFEF; margin: 10px 0 10px 0; padding: 5px; }
+#MenuRozmiaru #w1 { font-size: 11px; }
+#MenuRozmiaru #w2 { font-size: 13px; }
+#MenuRozmiaru #w3 { font-size: 15px; }
+.lit { display: inline; text-decoration: underline; cursor: pointer; }
+.selected { font-weight: bold; }
+.txt { clear: both; font-size: 11px; }
+

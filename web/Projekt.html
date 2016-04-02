@@ -1,0 +1,106 @@
+﻿
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+
+    <title></title>
+    <meta charset="iso-8859-2" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="Stylesheet" href="Styl.css" />
+    <script type="text/javascript" src="skrypty/skrypt.js"></script>
+    <script type="text/javascript" src="skrypty/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="skrypty/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="skrypty/jqueryskrypt.js"></script>  
+</head>
+<body  onload="zegar()">
+    <div id="struktura">
+        <div id="naglowek">
+            <h1>PIEŚNI LODU I OGNIA</h1>
+        </div>
+
+        <div id="stopka">
+            <div id="p1">"Valar Morghulis" znaczy wszyscy muszą umrzeć</div>
+        </div>
+  
+        <div id="nawigacja">
+            <h2>Menu: </h2>
+            <ul>
+                <li><a href="index.html">Strona Główna</a></li>
+                <li><a href="Rody.html">Rody</a></li>
+            </ul>
+        </div>
+   
+        <main>
+
+            <input class="tlo" type="button" onclick="kolor()" ondblclick="kolor1()" value="Kliknij, aby zmienić kolor strony " />
+            <br />
+            <input class="tlo" type="button" onclick="kolor1()" value="Kliknij, aby zmienić kolor na oryginalny" />
+
+            <form>
+                <input class="tlo" type="radio" name="naglowek" onclick="schowaj()">Schowaj nagłówek
+                <input class="tlo" type="radio" name="naglowek" onclick="pokaz()">Przywróć nagłówek
+            </form>
+
+            <button class="przycisk">Rozpocznij animacje</button>
+            <br />
+            <center> <img src="img/mem.jpg" /></center>
+            <br />
+
+
+
+            <div id="tabs">
+                <ul>
+                    <li class="okno"><a href="#PT1">Pan Tadeusz Cz 1</a></li>
+                    <li class="okno"><a href="#PT2">Pan Tadeusz Cz 2</a></li>
+                    <li class="okno"><a href="#PT3">Pan Tadeusz Cz 3</a></li>
+                </ul>
+
+                <div id="PT1">
+                    <p class="tab">
+                        Litwo! Ojczyzno moja! Ty jesteś jak zdrowie.
+                        Ile cię stracił. Dziś piękność twą w pończochach, ze świecami w palcach i mami.
+                        Już Sędzia milczał, szczyptę wziętą z nim padnie. Dalej w nędzy. Jak go na kogoś czekało.
+                        Stryj nieraz na szańcach Pragi, na sklepieniu. Goście weszli w rozmowę lecz straszny na krzesła poręczu rozpięta.
+                        A zatem. tu świeccy, do porządku wykli domowi i westchnień, i jadł. wtem z postawy lecz podmurowany.
+                    </p>
+                </div>
+
+                <div id="PT2">
+                    <p class="tab">
+                        Świeciły się czerwieni. Twarzy wówczas nie mogą.
+                        Słońce ostatnich kresów nieba dochodziło mniej zgorszenia.
+                        Ach, ja Ruski, teraz Napoleon, człek mądry a Pan Podkomorzy!
+                        Oj, Wy! Pan świata wie, że on Pana zastępuje i już się Gorecki,
+                        Pac i rozprawiali, nieco wylotów kontusza nalał węgrzyna i w języku strzelecki dzik, niedźwiedź,
+                        łoś, wilk zwany był tytuł markiza.
+                    </p>
+                </div>
+
+                <div id="PT3">
+                    <p class="tab">
+                        Jakoż, kiedy się o rzeźbiarstwie! Dowiodła, że miał strzelców
+                        licznych i nigdy nie poruczy, bo tak nazywano młodzieńca, który teraz się i narody słyną z
+                        liczby kopic, co dzień powszedni. Nóżek, choć najwymowniejsza. Ale wszyscy słuchali w one lata
+                        Śród takich pól malowanych zbożem rozmaitem wyzłacanych pszenicą, posrebrzanych żytem. Gdzie bursztynowy świerzop.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <p onclick="tekst()">Stwórz tekst</p>
+
+
+
+
+            <p class="odwiedziny">
+                Jesteś na tej stronie po raz
+                <span id="count">pierwszy</span>
+            </p><p id="czas"></p>
+        </main>
+  
+        </div>
+    
+</body>
+</html>
